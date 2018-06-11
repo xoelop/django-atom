@@ -450,6 +450,9 @@
   trans:
     prefix: "trans"
     body: "{% trans \"${1:string to translate}\" %}$0"
+  url:
+    prefix: 'url'
+    body: "{% url %}"
   variable:
     prefix: "var"
     body: "{{ $1 }}$0"
